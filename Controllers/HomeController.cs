@@ -11,7 +11,7 @@ namespace Fisher.Bookstore.Controllers
     {
         public IActionResult Index()
         {
-            return Content("hello world");
+            return View();
         }
     }
 
@@ -19,7 +19,7 @@ namespace Fisher.Bookstore.Controllers
     {
         public IActionResult Index()
         {
-            return Content("This is the About Controller's Index action.");
+            return View();
         }
 
         public IActionResult History()
@@ -37,7 +37,7 @@ namespace Fisher.Bookstore.Controllers
     {
         public IActionResult Index()
         {
-            return Content("This is the Books controller's Index action.");
+            return View();
         }
 
         public IActionResult New()
@@ -50,7 +50,7 @@ namespace Fisher.Bookstore.Controllers
     {
         public IActionResult Index()
         {
-            return Content("This is the Authors controller's Index action.");
+            return View();
         }
 
         public IActionResult Featured()
@@ -66,7 +66,7 @@ namespace Fisher.Bookstore.Controllers
         
         public IActionResult Products()
         {
-            return Content("This is the products page.");
+            return View();
         }
 
         [Route("Services")]
@@ -74,7 +74,7 @@ namespace Fisher.Bookstore.Controllers
 
         public IActionResult Services()
         {
-            return Content("This is the services page.");
+            return View();
         }
     }
 }
