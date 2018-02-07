@@ -7,11 +7,17 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Fisher.Bookstore.Controllers
 {
-    public class HomeController : Controller
+    public class AuthorsController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
+
+        public IActionResult Featured()
+        {
+            return Content("This is the Authors controller's Featured action.");
+        }
     }
+
 }
